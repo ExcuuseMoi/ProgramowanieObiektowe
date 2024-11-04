@@ -347,3 +347,35 @@ using System.Threading.Channels;
 //    }
 //}
 
+// ----------------------------------------------------------------------------------------------------------------------------------
+//ZADANIE6
+//zadanie6();
+
+//static void zadanie6()
+//{
+   
+//    while (true)
+//    {
+//        Console.WriteLine("Podaj liczbę całkowitą");
+//        int Integer;
+
+//        if (int.TryParse(Console.ReadLine(), out Integer)){
+//            Console.WriteLine($"Wprowadziłeś liczbę całkowitą: {Integer}");
+//            if (Integer < 0) {
+//                Console.WriteLine("Podana liczba jest mniejsza od zera i kończy pętlę");
+//                break;
+//            }
+
+//        }
+//        else
+//        {
+//            Console.WriteLine("To nie jest liczba całkowita.");
+//        }
+
+
+
+
+//    }
+    
+
+//}
