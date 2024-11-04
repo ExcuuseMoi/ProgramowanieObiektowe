@@ -305,7 +305,7 @@ using System.Threading.Channels;
 //            Array.Sort(Numbers);
 //            int Minimum = Numbers[0];
 //            Console.WriteLine($"Minimalna wartość z tablicy wynosi: {Minimum}");
-            
+
 //        }else if (choice == 5)
 //        {
 //            Console.WriteLine("Wyznaczenie maksymalnej wartości: ");
@@ -325,5 +325,25 @@ using System.Threading.Channels;
 //        }
 
 //    } while (true);
+//}
+
+// ----------------------------------------------------------------------------------------------------------------------------------
+//ZADANIE5
+
+//zadanie5();
+
+//static void zadanie5()
+//{
+
+//    Console.WriteLine("Liczby od 20 do 0  z wyłączeniem liczb {2, 6, 9, 15, 19}: ");
+//    for(int i = 20;  i >= 0; i--)
+//    {
+//        if(i == 2 || i == 6 || i ==9 || i ==15 || i == 19)
+//        {
+//            continue;
+//        }
+//        Console.WriteLine(i);
+
+//    }
 //}
 
