@@ -237,89 +237,89 @@ using System.Threading.Channels;
 // ----------------------------------------------------------------------------------------------------------------------------------
 //ZADANIE4
 
-zadanie4();
-static void zadanie4()
-{
-    int[] Numbers = new int[10];
+//zadanie4();
+//static void zadanie4()
+//{
+//    int[] Numbers = new int[10];
 
 
 
-    Console.WriteLine("Wpisz 10 liczb rzeczywistych:");
-        for (int i = 0; i < 10; i++)
-       {
-           Console.Write($"Liczba {i + 1}: ");
-           Numbers[i] = Convert.ToInt32(Console.ReadLine());
-       }
+//    Console.WriteLine("Wpisz 10 liczb rzeczywistych:");
+//        for (int i = 0; i < 10; i++)
+//       {
+//           Console.Write($"Liczba {i + 1}: ");
+//           Numbers[i] = Convert.ToInt32(Console.ReadLine());
+//       }
 
 
-    for (int i = 0; i < Numbers.Length; i++)
-    {
-        Console.WriteLine(Numbers[i]);
+//    for (int i = 0; i < Numbers.Length; i++)
+//    {
+//        Console.WriteLine(Numbers[i]);
 
-    }
+//    }
 
-    do
-    {
-        Console.WriteLine("-------------------------------MENU-------------------------\n1. Obliczanie sumy elementów tablicy\n2. Obliczanie iloczynu elementów tablicy\n3. Wyznaczenie średniej wartości" + "\n4. Wyznaczenie minimalnej wartości\n5. Wyznaczenie maksymalnej wartości\n6. Wyjście");
+//    do
+//    {
+//        Console.WriteLine("-------------------------------MENU-------------------------\n1. Obliczanie sumy elementów tablicy\n2. Obliczanie iloczynu elementów tablicy\n3. Wyznaczenie średniej wartości" + "\n4. Wyznaczenie minimalnej wartości\n5. Wyznaczenie maksymalnej wartości\n6. Wyjście");
 
-        Console.WriteLine("Wybierz opcję: ");
-        int choice = Convert.ToInt32(Console.ReadLine());
-        int result = 0;
-        if(choice == 1)
-        {
-            Console.WriteLine("Obliczanie sumy elementów tablicy: ");
-            for (int i = 0; i < Numbers.Length; i++)
-            {
-                result += Numbers[i];
-            }
-            Console.WriteLine($"Suma elementów tablicy wynosi: {result}");
-        }
+//        Console.WriteLine("Wybierz opcję: ");
+//        int choice = Convert.ToInt32(Console.ReadLine());
+//        int result = 0;
+//        if(choice == 1)
+//        {
+//            Console.WriteLine("Obliczanie sumy elementów tablicy: ");
+//            for (int i = 0; i < Numbers.Length; i++)
+//            {
+//                result += Numbers[i];
+//            }
+//            Console.WriteLine($"Suma elementów tablicy wynosi: {result}");
+//        }
 
-        else if(choice == 2)
-        {   
-            Console.WriteLine("Obliczanie iloczynu elementów tablicy: ");
-            long Multiplication = 1;
-            foreach(int eleme in Numbers)
-            {
-                Multiplication *= eleme;
-            }
-            Console.WriteLine($"Iloczyn elementów tablicy wynosi: {Multiplication}");
+//        else if(choice == 2)
+//        {   
+//            Console.WriteLine("Obliczanie iloczynu elementów tablicy: ");
+//            long Multiplication = 1;
+//            foreach(int eleme in Numbers)
+//            {
+//                Multiplication *= eleme;
+//            }
+//            Console.WriteLine($"Iloczyn elementów tablicy wynosi: {Multiplication}");
 
-        }else if(choice == 3)
-        {
-            Console.WriteLine("Wyznaczenie średniej wartości: ");
-            foreach(int elem in Numbers)
-            {
-                result += elem;
-            }
-            Console.WriteLine($"Średnia wartość tablicy wynosi: {result/Numbers.Length}");
+//        }else if(choice == 3)
+//        {
+//            Console.WriteLine("Wyznaczenie średniej wartości: ");
+//            foreach(int elem in Numbers)
+//            {
+//                result += elem;
+//            }
+//            Console.WriteLine($"Średnia wartość tablicy wynosi: {result/Numbers.Length}");
 
 
 
-        }else if(choice == 4)
-        {
-            Console.WriteLine("Wyznaczenie minimalnej wartości: ");
-            Array.Sort(Numbers);
-            int Minimum = Numbers[0];
-            Console.WriteLine($"Minimalna wartość z tablicy wynosi: {Minimum}");
+//        }else if(choice == 4)
+//        {
+//            Console.WriteLine("Wyznaczenie minimalnej wartości: ");
+//            Array.Sort(Numbers);
+//            int Minimum = Numbers[0];
+//            Console.WriteLine($"Minimalna wartość z tablicy wynosi: {Minimum}");
             
-        }else if (choice == 5)
-        {
-            Console.WriteLine("Wyznaczenie maksymalnej wartości: ");
-            Array.Sort(Numbers);
-            int Maximum = Numbers[Numbers.Length - 1];
-            Console.WriteLine($"Maksymalna wartość z tablicy wynosi: {Maximum}");
+//        }else if (choice == 5)
+//        {
+//            Console.WriteLine("Wyznaczenie maksymalnej wartości: ");
+//            Array.Sort(Numbers);
+//            int Maximum = Numbers[Numbers.Length - 1];
+//            Console.WriteLine($"Maksymalna wartość z tablicy wynosi: {Maximum}");
 
-        }
-        else if (choice == 6)
-        {
-            Console.WriteLine("Koniec programu.");
-            System.Environment.Exit(1);
-        }
-        else
-        {
-            Console.WriteLine("Źle wybrana opcja, wybierz jeszcze raz");
-        }
+//        }
+//        else if (choice == 6)
+//        {
+//            Console.WriteLine("Koniec programu.");
+//            System.Environment.Exit(1);
+//        }
+//        else
+//        {
+//            Console.WriteLine("Źle wybrana opcja, wybierz jeszcze raz");
+//        }
 
-    } while (true);
-}
+//    } while (true);
+//}
