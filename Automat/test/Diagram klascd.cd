@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="test.Automat">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAEAIoAUAAAACQKIAEAQAAAABAAAAAAA=</HashCode>
+      <FileName>Automat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="test.Moneta">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Moneta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="test.Napoj">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAIAAAgAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Napoj.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="test.NapojGazowany">
+    <Position X="5.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NapojGazowany.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="test.NapojNieGazowany">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NapojNieGazowany.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="test.PlikManager">
+    <Position X="9.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PlikManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Program">
+    <Position X="7.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="test.Transakcja">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Transakcja.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoZNapojami", "test\AutoZNapojami.csproj", "{726110F1-680D-4AD1-BB4F-96CBA9B8CD27}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{726110F1-680D-4AD1-BB4F-96CBA9B8CD27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{726110F1-680D-4AD1-BB4F-96CBA9B8CD27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{726110F1-680D-4AD1-BB4F-96CBA9B8CD27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{726110F1-680D-4AD1-BB4F-96CBA9B8CD27}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {089AA576-4CC9-4F7B-A66B-4411BAD29D51}
+	EndGlobalSection
+EndGlobal
